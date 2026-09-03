@@ -1,7 +1,7 @@
 const Action = require("./action");
 
 /**
- * Chain of responsibility action for querying google analytics for data.
+ * Chain of responsibility action for writing analytics data to the database.
  */
 class WriteAnalyticsDataToDatabase extends Action {
   #postgresPublisher;

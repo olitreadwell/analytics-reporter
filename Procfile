@@ -1,1 +1,1 @@
-worker: node deploy/cron.js
+worker: node deploy/publisher.js
