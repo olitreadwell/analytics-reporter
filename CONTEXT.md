@@ -22,7 +22,7 @@
 - No contested/redesign signals relevant to trivial cleanup.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-03` self-found trivial cleanup (stale `deploy/cron.js` refs in package.json + Procfile; typo "fro" in src/publish/disk.js; wrong JSDoc in src/actions/write_analytics_data_to_database.js; typo "it's" in src/process_results/result_formatter.js) — outcome: pr-opened — lesson: cron.js deleted in 069f644 (Bree), refs left stale; dedupe searches for these strings return no upstream PRs.
+- `2026-09-03` self-found trivial cleanup (stale `deploy/cron.js` refs in package.json + Procfile; typo "fro" in src/publish/disk.js; wrong JSDoc in src/actions/write_analytics_data_to_database.js; typo "it's" in src/process_results/result_formatter.js) — outcome: pr-opened (fork PR #1) — lesson: cron.js deleted in 069f644 (Bree), refs left stale; dedupe searches for these strings return no upstream PRs.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` src/process_results/result_totals_calculator.js line 131 `result.date[0].date` vs `result.data` — code bug, NOT trivial (behavior change) — status: dropped(out-of-scope-for-trivial)
