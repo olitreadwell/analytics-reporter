@@ -4,7 +4,7 @@ const path = require("path");
 /**
  * Publishes report data to a file on the local filesystem.
  *
- * @param {object} params the parameters fro the method
+ * @param {object} params the parameters for the method
  * @param {string} params.name the name of the file to create.
  * @param {string} params.data the data to write to the file.
  * @param {string} params.format the file extension to use
